@@ -17,16 +17,18 @@
             </ul>
         </nav>
     </header>
+    <div id="sep"></div>
     <section>
         <h2>Login Page</h2>
-        <form id="loginForm" action="#" method="post" onsubmit="return validateLoginForm()">
-            <label for="username">Username:</label>
+        <form id="loginForm" action="#" method="post" >
+           <div class"input"> <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
-
+           </div>
+           <div class"input">
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
-
-            <input type="submit" value="Login">
+           </div>
+            <button type="submit" id="loginBtn" value="Login">Login</button>
         </form>
     </section>
     <footer>
